@@ -1,0 +1,59 @@
+.contact {
+  padding: 80px 60px;
+  background: #f7f9fc;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+  color: #1e1e1e;
+}
+
+.contact-boxes {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.contact-boxes > div {
+  background: white;
+  padding: 25px;
+  width: 250px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  transition: 0.3s;
+}
+
+.contact-boxes > div:hover {
+  transform: translateY(-6px);
+}
+
+.contact-boxes h3 {
+  margin-bottom: 10px;
+  color: #0d6efd;
+}
+
+.contact-boxes p {
+  color: #555;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* WhatsApp button style (optional if you add it later) */
+.whatsapp-btn {
+  margin-top: 30px;
+  padding: 12px 25px;
+  background: #25D366;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.whatsapp-btn:hover {
+  background: #1ebe5d;
+}

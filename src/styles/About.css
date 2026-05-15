@@ -1,0 +1,106 @@
+.about {
+  position: relative;
+  padding: 100px 60px;
+
+  background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+   url("../images/about.jpg");
+
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  color: white;
+  overflow: hidden;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.about-image img {
+  width: 100%;
+  max-width: 280px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.about-content {
+  flex: 1;
+}
+
+.sub {
+  color: #ff7a00;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.about-content h2 {
+  font-size: 32px;
+  margin: 10px 0;
+   color: white;
+}
+
+.about-content p {
+ 
+  margin-bottom: 15px;
+  line-height: 1.7;
+   color: #f1f1f1;
+}
+
+.about-content button {
+  padding: 12px 25px;
+  border: none;
+  background: #0d6efd;
+  color: white;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.about-content button:hover {
+  background: #084cd6;
+}
+
+  p {
+  margin: 0;
+
+}
+.about-content .sub {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.about-content p {
+  margin-bottom: 15px;
+}
+.mission-box,
+.story-box,
+.why-box {
+  margin-top: 25px;
+}
+
+.mission-box h3,
+.story-box h3,
+.why-box h3 {
+  color: #ff7a00;
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+
+.why-box ul {
+  padding-left: 20px;
+}
+
+.why-box li {
+  margin-bottom: 12px;
+    color: #f1f1f1;
+  line-height: 1.7;
+}

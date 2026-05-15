@@ -1,0 +1,33 @@
+.footer {
+  background: #0d6efd;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+.social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 10px;
+
+  color: white;
+  text-decoration: none;
+ font-size: 32px;
+  margin-top: 15px;
+
+  transition: 0.3s;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
+
+  flex-wrap: wrap;
+
+  margin-top: 40px;
+}
+
+.footer-section {
+  max-width: 300px;
+}

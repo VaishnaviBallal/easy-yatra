@@ -1,0 +1,17 @@
+.news {
+  text-align: center;
+  padding: 50px;
+  background: #f1f1f1;
+}
+
+.news input {
+  padding: 10px;
+  width: 250px;
+}
+
+.news button {
+  padding: 10px 20px;
+  background: orange;
+  border: none;
+  margin-left: 10px;
+}
