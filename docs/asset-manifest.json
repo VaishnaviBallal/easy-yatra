@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/easy-yatra/static/css/main.afb632f7.css",
+    "main.css": "/easy-yatra/static/css/main.20fcf47d.css",
     "main.js": "/easy-yatra/static/js/main.d3171e01.js",
     "static/js/453.d50d4d88.chunk.js": "/easy-yatra/static/js/453.d50d4d88.chunk.js",
     "static/media/about.jpg": "/easy-yatra/static/media/about.e46c4ec3e4d37a669ebb.jpg",
     "index.html": "/easy-yatra/index.html",
-    "main.afb632f7.css.map": "/easy-yatra/static/css/main.afb632f7.css.map",
+    "main.20fcf47d.css.map": "/easy-yatra/static/css/main.20fcf47d.css.map",
     "main.d3171e01.js.map": "/easy-yatra/static/js/main.d3171e01.js.map",
     "453.d50d4d88.chunk.js.map": "/easy-yatra/static/js/453.d50d4d88.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.afb632f7.css",
+    "static/css/main.20fcf47d.css",
     "static/js/main.d3171e01.js"
   ]
 }
