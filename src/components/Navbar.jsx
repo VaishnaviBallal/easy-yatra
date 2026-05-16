@@ -7,10 +7,10 @@ function Navbar() {
       <div className="logo-box">
 
         <img
-          src="/images/logo.jpg"
-          alt="Easy Yatra Holidays"
-          className="logo-img"
-        />
+  src={process.env.PUBLIC_URL + "/images/logo.jpg"}
+  alt="Easy Yatra Holidays"
+  className="logo-img"
+/>
 
         <h2>Easy Yatra Holidays</h2>
 

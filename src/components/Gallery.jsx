@@ -1,18 +1,18 @@
 import "../styles/Gallery.css";
 
 const images = [
-  "/images/img1.jpg",
-  "/images/img2.jpg",
-  "/images/img3.jpg",
-  "/images/img4.jpg",
-  "/images/img5.jpg",
-  "/images/img6.jpg",
-  "/images/img7.jpg",
-  "/images/img8.jpg",
-  "/images/img9.jpg",
-  "/images/img10.jpg",
-  "/images/img11.jpg",
-  "/images/img12.jpg"
+  process.env.PUBLIC_URL + "/images/img1.jpg",
+  process.env.PUBLIC_URL + "/images/img2.jpg",
+  process.env.PUBLIC_URL + "/images/img3.jpg",
+  process.env.PUBLIC_URL + "/images/img4.jpg",
+  process.env.PUBLIC_URL + "/images/img5.jpg",
+  process.env.PUBLIC_URL + "/images/img6.jpg",
+  process.env.PUBLIC_URL + "/images/img7.jpg",
+  process.env.PUBLIC_URL + "/images/img8.jpg",
+  process.env.PUBLIC_URL + "/images/img9.jpg",
+  process.env.PUBLIC_URL + "/images/img10.jpg",
+  process.env.PUBLIC_URL + "/images/img11.jpg",
+  process.env.PUBLIC_URL + "/images/img12.jpg"
 ];
 
 function Gallery() {

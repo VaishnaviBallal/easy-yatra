@@ -4,22 +4,22 @@ const destinations = [
   {
     name: "Ayodhya",
     city: "Uttar Pradesh, India",
-    img: "https://images.unsplash.com/photo-1608369475631-3c0c6b5a7f9f"
+    img: process.env.PUBLIC_URL + "/images/ayodhya.jpg"
   },
   {
     name: "Varanasi",
     city: "Uttar Pradesh, India",
-    img: "https://images.unsplash.com/photo-1561361513-2d000a50f0dc"
+    img: process.env.PUBLIC_URL + "/images/varanasi.jpg"
   },
   {
     name: "Prayagraj",
     city: "Uttar Pradesh, India",
-    img: "https://images.unsplash.com/photo-1603262110263-fb0112e7cc33"
+    img: process.env.PUBLIC_URL + "/images/prayagraj.jpg"
   },
   {
     name: "Gaya",
     city: "Bihar, India",
-    img: "https://images.unsplash.com/photo-1582972236019-ea4af5ffe587"
+    img: process.env.PUBLIC_URL + "/images/gaya.jpg"
   }
 ];
 
